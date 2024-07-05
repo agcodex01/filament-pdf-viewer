@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer\Testing;
+namespace Agcodex\FilamentPdfViewer\Testing;
 
 use Livewire\Features\SupportTesting\Testable;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer;
+namespace Agcodex\FilamentPdfViewer;
 
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Joaopaulolndev\FilamentPdfViewer\Commands\FilamentPdfViewerCommand;
-use Joaopaulolndev\FilamentPdfViewer\Testing\TestsFilamentPdfViewer;
+use Agcodex\FilamentPdfViewer\Commands\FilamentPdfViewerCommand;
+use Agcodex\FilamentPdfViewer\Testing\TestsFilamentPdfViewer;
 
 class FilamentPdfViewerServiceProvider extends PackageServiceProvider
 {
@@ -28,7 +28,7 @@ class FilamentPdfViewerServiceProvider extends PackageServiceProvider
                 $command
                     ->publishConfigFile()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('joaopaulolndev/filament-pdf-viewer');
+                    ->askToStarRepoOnGitHub('agcodex01/filament-pdf-viewer');
             });
 
         $configFileName = $package->shortName();
@@ -58,7 +58,7 @@ class FilamentPdfViewerServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'joaopaulolndev/filament-pdf-viewer';
+        return 'agcodex01/filament-pdf-viewer';
     }
 
     /**

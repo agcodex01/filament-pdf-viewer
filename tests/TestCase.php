@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer\Tests;
+namespace Agcodex\FilamentPdfViewer\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -16,7 +16,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use Joaopaulolndev\FilamentPdfViewer\FilamentPdfViewerServiceProvider;
+use Agcodex\FilamentPdfViewer\FilamentPdfViewerServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -25,7 +25,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Joaopaulolndev\\FilamentPdfViewer\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Agcodex\\FilamentPdfViewer\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 

@@ -1,14 +1,14 @@
 # Filament package to show pdf document viewer
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/joaopaulolndev/filament-pdf-viewer.svg?style=flat-square)](https://packagist.org/packages/joaopaulolndev/filament-pdf-viewer)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/joaopaulolndev/filament-pdf-viewer/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/joaopaulolndev/filament-pdf-viewer/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/joaopaulolndev/filament-pdf-viewer/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/joaopaulolndev/filament-pdf-viewer/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/joaopaulolndev/filament-pdf-viewer.svg?style=flat-square)](https://packagist.org/packages/joaopaulolndev/filament-pdf-viewer)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/agcodex01/filament-pdf-viewer.svg?style=flat-square)](https://packagist.org/packages/agcodex01/filament-pdf-viewer)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/agcodex01/filament-pdf-viewer/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/agcodex01/filament-pdf-viewer/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/agcodex01/filament-pdf-viewer/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/agcodex01/filament-pdf-viewer/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/agcodex01/filament-pdf-viewer.svg?style=flat-square)](https://packagist.org/packages/agcodex01/filament-pdf-viewer)
 
 FilamentPHP package to show pdf documents with records saved in the database or show documents without a database in the form of your resource.
 <div class="filament-hidden">
 
-![Screenshot of Application Feature](https://raw.githubusercontent.com/joaopaulolndev/filament-pdf-viewer/main/art/joaopaulolndev-filament-pdf-viewer.jpg)
+![Screenshot of Application Feature](https://raw.githubusercontent.com/agcodex01/filament-pdf-viewer/main/art/agcodex01-filament-pdf-viewer.jpg)
 
 </div>
 
@@ -23,7 +23,7 @@ FilamentPHP package to show pdf documents with records saved in the database or 
 You can install the package via composer:
 
 ```bash
-composer require joaopaulolndev/filament-pdf-viewer
+composer require agcodex01/filament-pdf-viewer
 ```
 
 Optionally, you can publish the views using
@@ -35,7 +35,7 @@ php artisan vendor:publish --tag="filament-pdf-viewer-views"
 ## Usage in form field
 
 ```php
-use Joaopaulolndev\FilamentPdfViewer\Forms\Components\PdfViewerField;
+use Agcodex\FilamentPdfViewer\Forms\Components\PdfViewerField;
 
 public static function form(Form $form): Form
 {
@@ -51,7 +51,7 @@ public static function form(Form $form): Form
 ## Usage in infolist entry
 
 ```php
-use Joaopaulolndev\FilamentPdfViewer\Infolists\Components\PdfViewerEntry;
+use Agcodex\FilamentPdfViewer\Infolists\Components\PdfViewerEntry;
 
 public static function infolist(Infolist $infolist): Infolist 
 {
@@ -67,7 +67,7 @@ public static function infolist(Infolist $infolist): Infolist
 Optionally, you can use anothe methods to set the pdf viewer
 
 ```php
-use Joaopaulolndev\FilamentPdfViewer\Infolists\Components\PdfViewerEntry;
+use Agcodex\FilamentPdfViewer\Infolists\Components\PdfViewerEntry;
 
 public static function infolist(Infolist $infolist): Infolist 
 {
@@ -85,7 +85,7 @@ public static function infolist(Infolist $infolist): Infolist
 Optionally, you can use section to set the pdf viewer
 
 ```php
-use Joaopaulolndev\FilamentPdfViewer\Infolists\Components\PdfViewerEntry;
+use Agcodex\FilamentPdfViewer\Infolists\Components\PdfViewerEntry;
 
 public static function infolist(Infolist $infolist): Infolist 
 {
@@ -125,7 +125,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [João Paulo Leite Nascimento](https://github.com/joaopaulolndev)
+- [João Paulo Leite Nascimento](https://github.com/agcodex01)
 - [Rômulo Ramos](https://github.com/rmsramos)
 - [All Contributors](../../contributors)
 

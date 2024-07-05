@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer\Infolists\Components;
+namespace Agcodex\FilamentPdfViewer\Infolists\Components;
 
 use Filament\Infolists\Components\ViewEntry;
 use Illuminate\Support\Facades\Storage;

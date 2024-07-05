@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer\Commands;
+namespace Agcodex\FilamentPdfViewer\Commands;
 
 use Illuminate\Console\Command;
 

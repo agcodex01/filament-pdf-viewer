@@ -1,5 +1,5 @@
 <?php
 
-use Joaopaulolndev\FilamentPdfViewer\Tests\TestCase;
+use Agcodex\FilamentPdfViewer\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

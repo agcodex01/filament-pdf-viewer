@@ -1,21 +1,26 @@
 {
-    "name": "joaopaulolndev/filament-pdf-viewer",
+    "name": "agcodex01/filament-pdf-viewer",
     "description": "Filament package to show pdf document viewer",
     "keywords": [
-        "joaopaulolndev",
+        "agcodex01",
         "laravel",
         "filament-pdf-viewer"
     ],
-    "homepage": "https://github.com/joaopaulolndev/filament-pdf-viewer",
+    "homepage": "https://github.com/agcodex01/filament-pdf-viewer",
     "support": {
-        "issues": "https://github.com/joaopaulolndev/filament-pdf-viewer/issues",
-        "source": "https://github.com/joaopaulolndev/filament-pdf-viewer"
+        "issues": "https://github.com/agcodex01/filament-pdf-viewer/issues",
+        "source": "https://github.com/agcodex01/filament-pdf-viewer"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "João Paulo Leite Nascimento",
             "email": "joaopauloln7@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Gerald Afable",
+            "email": "agcodex01@gmail.com",
             "role": "Developer"
         }
     ],
@@ -33,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Joaopaulolndev\\FilamentPdfViewer\\": "src/",
-            "Joaopaulolndev\\FilamentPdfViewer\\Database\\Factories\\": "database/factories/"
+            "Agcodex\\FilamentPdfViewer\\": "src/",
+            "Agcodex\\FilamentPdfViewer\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Joaopaulolndev\\FilamentPdfViewer\\Tests\\": "tests/"
+            "Agcodex\\FilamentPdfViewer\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -57,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Joaopaulolndev\\FilamentPdfViewer\\FilamentPdfViewerServiceProvider"
+                "Agcodex\\FilamentPdfViewer\\FilamentPdfViewerServiceProvider"
             ],
             "aliases": {
-                "FilamentPdfViewer": "Joaopaulolndev\\FilamentPdfViewer\\Facades\\FilamentPdfViewer"
+                "FilamentPdfViewer": "Agcodex\\FilamentPdfViewer\\Facades\\FilamentPdfViewer"
             }
         }
     },

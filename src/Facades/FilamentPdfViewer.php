@@ -1,16 +1,16 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer\Facades;
+namespace Agcodex\FilamentPdfViewer\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Joaopaulolndev\FilamentPdfViewer\FilamentPdfViewer
+ * @see \Agcodex\FilamentPdfViewer\FilamentPdfViewer
  */
 class FilamentPdfViewer extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Joaopaulolndev\FilamentPdfViewer\FilamentPdfViewer::class;
+        return \Agcodex\FilamentPdfViewer\FilamentPdfViewer::class;
     }
 }

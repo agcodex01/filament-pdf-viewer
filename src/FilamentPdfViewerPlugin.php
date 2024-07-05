@@ -1,6 +1,6 @@
 <?php
 
-namespace Joaopaulolndev\FilamentPdfViewer;
+namespace Agcodex\FilamentPdfViewer;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
